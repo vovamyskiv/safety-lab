@@ -1,0 +1,103 @@
+﻿<Window x:Class="SD_Lab1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SD_Lab1"
+        mc:Ignorable="d"
+        Title="" Height="400" Width="320" Background="Black" Loaded="Window_Loaded">
+
+    <Window.Resources>
+
+        <Style TargetType="Label">
+
+            <Setter Property="Foreground" Value="White"/>
+
+            <Setter Property="FontSize" Value="16"/>
+
+        </Style>
+
+        <Style TargetType="TextBox">
+
+            <Setter Property="FontSize" Value="16"/>
+
+            <Setter Property="Margin" Value="5"/>
+
+        </Style>
+        
+    </Window.Resources>
+    
+    <StackPanel HorizontalAlignment="Center">
+
+        <Label Content="Генератор псевдовипадкових чисел" HorizontalAlignment="Center"/>
+
+        <Label Content="Варіант №8" HorizontalAlignment="Center"/>
+
+        <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0" Name="Left">
+
+                <StackPanel>
+
+                    <Label Content="Модуль порівняння" HorizontalAlignment="Left"/>
+
+                    <Label Content="Множник" HorizontalAlignment="Left"/>
+
+                    <Label Content="Приріст" HorizontalAlignment="Left"/>
+
+                    <Label Content="Початкове число" HorizontalAlignment="Left"/>
+
+                </StackPanel>
+
+                <Label Content="Кількість: "/>
+
+                <StackPanel Name="Panel_Collapsed_Left" Visibility="Collapsed">
+
+                    <Label Content="Мінімум" HorizontalAlignment="Left"/>
+
+                    <Label Content="Максимум" HorizontalAlignment="Left"/>
+
+                </StackPanel>
+                
+                <CheckBox Checked="Limit_Check_Checked" Unchecked="Limit_Check_Unchecked"  Name="Limit_Check" HorizontalAlignment="Left" Content="Вказувати межі" Foreground="White" FontSize="16" Margin="5"/>
+
+            </StackPanel>
+
+            <StackPanel Grid.Column="1" Name="Right">
+
+                <StackPanel Name="Panel_StaticValues">
+
+                    <TextBox IsEnabled="False" Text="{Binding Path=Modul, Mode=OneTime}"/>
+
+                    <TextBox IsEnabled="False" Text="{Binding Path=A, Mode=OneTime}"/>
+
+                    <TextBox IsEnabled="False" Text="{Binding Path=C, Mode=OneTime}"/>
+
+                    <TextBox IsEnabled="False" Text="{Binding Path=StartValue, Mode=OneTime}"/>
+
+                </StackPanel>
+
+                <TextBox Name="Input_Amount"/>
+
+                <StackPanel Name="Panel_Collapsed_Right" Visibility="Collapsed">
+
+                    <TextBox Name="Input_Min"/>
+
+                    <TextBox Name="Input_Max"/>
+
+                </StackPanel>
+
+            </StackPanel>
+            
+        </Grid>
+        
+        <Button Content="Згенерувати" Click="Run_Click" Margin="5" FontSize="16" Background="Black" Foreground="White"/>
+
+    </StackPanel>
+    
+</Window>
