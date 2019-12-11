@@ -1,0 +1,11 @@
+D:\LP\LP_7_semester\SecurityOfData\Projects\SD_Lab2\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+D:\LP\LP_7_semester\SecurityOfData\Projects\SD_Lab2\ConsoleTest\bin\Debug\ConsoleTest.exe
+D:\LP\LP_7_semester\SecurityOfData\Projects\SD_Lab2\ConsoleTest\bin\Debug\ConsoleTest.pdb
+D:\LP\LP_7_semester\SecurityOfData\Projects\SD_Lab2\ConsoleTest\obj\Debug\ConsoleTest.csprojAssemblyReference.cache
+D:\LP\LP_7_semester\SecurityOfData\Projects\SD_Lab2\ConsoleTest\obj\Debug\ConsoleTest.csproj.CoreCompileInputs.cache
+D:\LP\LP_7_semester\SecurityOfData\Projects\SD_Lab2\ConsoleTest\obj\Debug\ConsoleTest.exe
+D:\LP\LP_7_semester\SecurityOfData\Projects\SD_Lab2\ConsoleTest\obj\Debug\ConsoleTest.pdb
+D:\LP\LP_7_semester\SecurityOfData\Projects\SD_Lab2\ConsoleTest\bin\Debug\SD_Lab2.exe
+D:\LP\LP_7_semester\SecurityOfData\Projects\SD_Lab2\ConsoleTest\bin\Debug\SD_Lab2.pdb
+D:\LP\LP_7_semester\SecurityOfData\Projects\SD_Lab2\ConsoleTest\bin\Debug\SD_Lab2.exe.config
+D:\LP\LP_7_semester\SecurityOfData\Projects\SD_Lab2\ConsoleTest\obj\Debug\ConsoleTest.csproj.CopyComplete
